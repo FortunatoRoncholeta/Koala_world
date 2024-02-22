@@ -1,0 +1,51 @@
+body{
+    background-color: #494a4a;
+}
+
+
+
+
+
+
+
+
+/*=================MENU===============*/
+
+
+h1{
+    font-size: 3em;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+img.logo{
+    align-self: flex-start;
+    width: 130px;
+}
+
+
+
+li.menu{
+    font-size: 20px;
+    display: inline;
+}
+
+li.menu a{
+    color: rgb(127, 238, 160);
+    text-decoration: none;   
+}
+
+li.menu a:hover{
+    color: rgb(255, 255, 255);
+} 
+
+hr {
+    width: 100%;   
+}
+
+footer div img {
+    position: fixed;
+    bottom: 0;
+    right:  0;
+}
