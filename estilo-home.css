@@ -1,0 +1,66 @@
+/* zerando padroes*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*GERAL*/
+
+ul{
+    list-style: none; /*Retira bolinha*/
+}
+
+/*MENU*/
+
+#menu ul{
+
+}
+#menu li{
+    display: inline;
+}
+ 
+#menu li a{
+    font-size: 1.5em;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: aquamarine;
+}
+
+/* Menu-Lateral-esq*/
+
+#menu-lateral-esq{
+width: 20%;
+border: solid black 1px;
+float: left;
+margin-top: 20px;
+text-align: center;
+
+
+}
+
+/* Menu-Lateral-dir*/
+
+#menu-lateral-dir{
+width: 20%;
+border: solid black 1px;
+float: right;
+margin-top: 20px;
+text-align: center;
+
+}
+
+/* Conteudo*/
+
+#conteudo{
+    border: solid black 1px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    
+}

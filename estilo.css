@@ -1,0 +1,60 @@
+/* zerando padroes*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    background: url(img/fundo/1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+/*Quadro de LOGIN*/
+#quadro{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 400px;
+    height: 300px;
+    border: solid 1px black;
+    background-color: rgba(255, 255, 255, 0.3);
+    background: url(img/login.jpg);
+    border-radius: 10px;
+    text-align: center;
+}
+
+legend img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;  
+}
+
+input{
+    height: 40px;
+    width: 70%;
+    font-size: 18px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+input#submit{
+    height: 80px;
+    width: 40%;
+    background: url(img/d201.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+input#submit:hover{
+    background: url(img/d202.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}
